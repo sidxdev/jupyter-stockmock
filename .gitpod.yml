@@ -1,6 +1,6 @@
 tasks:
   - name: Python modules
-    before: pip install requirements.txt
+    before: pip install -r requirements.txt
 
 ports:
   - port: 9000-9999 # Jupyter ports
